@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+.cart-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.item-quantity {
+    display: flex;
+    align-items: center;
+}
+
+.dolz {
+    margin-left: 50px;
+    margin-right: 50px;  
+}
+.item-quantity button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.heart {
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+/* .heart {
+    color: #5a1bef;
+    cursor: pointer;
+    transition: red 0.3s ease-in-out;
+} */
+
+.fa-heart {
+    cursor: pointer;
+}
+
+.like-button.liked {
+    color: red;
+    animation: bop 300ms ease-in-out;
+}
+
+@keyframes bop {
+    50% {
+        transform: scale(1.5);
+    }
+}
+.total {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
